@@ -1,0 +1,154 @@
+/* Reset some default styles for the body and header */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image to the body */
+body {
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7353023/1820/965/m1/fpnw/wm1/vhrcurpyvsoca7tmdjup4bikwr9tluqqycqknbt49gitoe9diuggdrpujsqselgd-.jpg?1574572825&s=b8b0de343dc1ee5ba264e82e37b1047e'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    width: 800px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Style the about-text section */
+.about-text {
+    max-width: 800px; 
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;     
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    
+}
+
+/* Style the text within the about-text section */
+.about-text p {
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: x-large;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+.container div{
+    margin-right: 8%;    
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style for the navigation links */
+.nav-options a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Style for the logo */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+}
+
+/* Change the color of the links on hover */
+.nav-options a:hover {
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url("./images/logo.png");
+    width: 200px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}
+
+.login{
+    background-image: url("./images/icons8-male-user-white.png");
+    background-repeat: no-repeat;
+    height:22px;
+    background-size: contain;
+    /* margin-left: 5px; */
+}
+.login p{
+    display: inline;
+    margin-left: 40px;
+}
+.login:hover{
+    background-image: url("./images/icons8-male-user-black.png");
+    background-repeat: no-repeat;
+    height: 22px;
+}
+.fb-logo:hover{   
+    display: inline-block;
+      width: 48px;
+      height: 48px;
+      border: none;
+    background-color: #d8dddf;
+    box-shadow: 0 0 5px #97d6ef;
+      border-radius: 50%; 
+  }
+  .insta-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+    background-color: #d8dddf;
+    box-shadow: 0 0 5px #b31c23;
+      border-radius: 25%; 
+  }
+  .linkedin-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+      background-color: #d8dddf;
+      box-shadow: 0 0 5px #1f55b9;
+      border-radius: 25%; 
+  }
+  .twitter-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+      background-color: #d8dddf;
+      box-shadow: 0 0 5px #1f55b9;
+      border-radius: 25%; 
+  }
+  .about-text strong{
+    color:olivedrab
+  }
+  .about-nav{
+    background-color: #ddd;
+    color: black !important;
+  }

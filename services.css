@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/premium-photo/inviting-composition-traditional-mexican-tacos-showcasing-burst-colors-flavors-copy-space-image_466739-14141.jpg"); /* Replace 'your-background-image.jpg' with the actual image file path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+
+  /* CSS for the content container */
+
+  h1 {
+    text-align: center;
+    color: #333; /* Dark text color */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+   max-width: 800px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0;
+  }
+
+  .services-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555; /* Slightly darker text color */
+    max-width: 800px; 
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;     
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  }
+  .services-text p{
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: x-large;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style for the navigation links */
+.nav-options a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Style for the logo */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+}
+
+/* Change the color of the links on hover */
+.nav-options a:hover {
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url("./images/logo.png");
+    width: 200px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}
+
+.login{
+    background-image: url("./images/icons8-male-user-white.png");
+    background-repeat: no-repeat;
+    height:22px;
+    background-size: contain;
+    /* margin-left: 5px; */
+}
+.login p{
+    display: inline;
+    margin-left: 40px;
+}
+.login:hover{
+    background-image: url("./images/icons8-male-user-black.png");
+    background-repeat: no-repeat;
+    height: 22px;
+}
+.fb-logo:hover{   
+    display: inline-block;
+      width: 48px;
+      height: 48px;
+      border: none;
+    background-color: #d8dddf;
+    box-shadow: 0 0 5px #97d6ef;
+      border-radius: 50%; 
+  }
+  .insta-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+    background-color: #d8dddf;
+    box-shadow: 0 0 5px #b31c23;
+      border-radius: 25%; 
+  }
+  .linkedin-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+      background-color: #d8dddf;
+      box-shadow: 0 0 5px #1f55b9;
+      border-radius: 25%; 
+  }
+  .twitter-logo:hover{
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      border: none;
+      background-color: #d8dddf;
+      box-shadow: 0 0 5px #1f55b9;
+      border-radius: 25%; 
+  }
+  .container{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px;
+    margin-left: 8%;
+  }
+  .content-container{
+    margin: 0;
+  }
+  .services-text strong{
+    color: orange;
+  }
+  .services-nav{
+    background-color: #ddd;
+    color: black !important;
+  }

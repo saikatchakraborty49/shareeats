@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/58/77/48/1000_F_558774839_Mbo3ULUhLihlU9rClLuUAGrPQ7KI6CxZ.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the container */
+.container{
+    text-align: center;
+    /* background-color: RGB(0, 51, 102);
+    color:   RGB(170, 170, 170); */
+    background-color: rgba(68, 44, 12, 0.8); 
+    color:   RGB(170, 170, 170);
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Style for the form */
+#login-form {
+    margin-top: 15px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-container i {
+    margin-right: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.remember-me {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Style for social media icons */
+.social-login {
+    margin-top: 15px;
+}
+
+.social-login p {
+    font-weight: bold;
+}
+
+.social-login i {
+    margin: 10px;
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Style for the registration link */
+.register {
+    margin-top: 6px;
+}
+
+a{
+    color: white;
+}
+input{
+    background: none;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #b3a818; 
+    font-size: larger;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+
+.container-logo{
+    background-image: url("./images/logo.png");
+    height: 100px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.social-media{
+    background-color: rgba(68, 44, 12, 0.8);
+    color:   whitesmoke;
+    padding: 20px;
+    width: 400px;
+    height:90px;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+.social-media h2{
+    margin-top: 8px;
+}
+.fb-logo:hover{   
+  display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: none;
+  background-color: #000203;
+  box-shadow: 0 0 5px #97d6ef;
+    border-radius: 50%; 
+}
+.insta-logo:hover{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border: none;
+  background-color: #000000;
+  box-shadow: 0 0 5px #b31c23;
+    border-radius: 25%; 
+}
+.linkedin-logo:hover{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: #000000;
+    box-shadow: 0 0 5px #1f55b9;
+    border-radius: 25%; 
+}
+.twitter-logo:hover{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: #00030c;
+    box-shadow: 0 0 5px #1f55b9;
+    border-radius: 25%; 
+}
+.google-logo:hover{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: #00030c;
+    box-shadow: 0 0 5px #d36811;
+    border-radius: 25%; 
+}
