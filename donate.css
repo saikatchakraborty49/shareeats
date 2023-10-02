@@ -43,7 +43,7 @@ main form{
 }
 .shelters-h2{
     color: #f7f7f7;
-    background-color: rgba(60, 101, 212, 0.7);
+    background-color: rgb(0 0 0 / 50%);
     padding: 10px;
     margin-bottom: 10px;
     border-radius:10px;
